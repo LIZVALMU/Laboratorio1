@@ -14,4 +14,4 @@ Permite seleccionar qué modificaciones específicas del proyecto deseas incluir
 **git commit:** Este comando se emplea para guardar los cambios que han sido añadidos al área de preparación en el repositorio local,
  creando una instantánea del estado actual del proyecto con un mensaje que describe los cambios realizados.
 
- ![Git](Imagenes/Creaciondedirectorios.png)
+(Imagenes/Creaciondedirectorios.png)
