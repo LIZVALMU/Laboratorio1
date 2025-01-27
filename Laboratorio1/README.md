@@ -7,7 +7,7 @@ El objetivo de este laboratorio es adquirir y reforzar los conocimientos fundame
 
 ---
 
-## Parte I: Comandos Básicos de Git
+## PARTE I: Comandos Básicos de Git
 
 ### **`git add`**
 Este comando se utiliza para **incluir cambios en el área de preparación (staging area)** antes de que se registren en el repositorio.  
@@ -20,16 +20,21 @@ Este comando se emplea para **guardar los cambios** que han sido añadidos al á
 
 ## Imágenes del Proceso
 
+
 ### Creación de directorios
+1.Crea un repositorio localmente.
 ![Creación de directorios](Imagenes/Creacion%20de%20directorios.png)
 
 ### Agregando el archivo `README.md`
+2.Agrega un archivo de ejemplo al repositorio, el README.md 
 ![Agregando README](Imagenes/Agregando%20REAME.png)
 
 ### Configuración global de Git
+Configura el correo en git local de manera correcta
 ![Configuración global](Imagenes/configuracion%20global.png)
 
 ### Realizando el push del `README.md`
+Configura el repositorio local con el repositorio remoto.
 ![Push del README](Imagenes/push%20del%20README.png)
 
 ---
