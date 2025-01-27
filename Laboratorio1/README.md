@@ -31,7 +31,7 @@ Este comando se emplea para **guardar los cambios** que han sido añadidos al á
 ![Agregando README](Imagenes/Agregando%20REAME.png)
 
 ### Creacion nuevo repositorio
-![Nuevorepositorio](Imagenes\newrepositorio.png)
+![Nuevorepositorio](Imagenes/new%20repositorio.png)
 
 
 ### Configuración global de Git
