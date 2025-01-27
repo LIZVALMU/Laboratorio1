@@ -1,4 +1,4 @@
-# LABORATORIO 1 CVDS 2025
+**# LABORATORIO 1 CVDS 2025
 
 ## Primer Laboratorio de CVDS
 
@@ -49,3 +49,4 @@ Configura el repositorio local con el repositorio remoto.
 En este laboratorio hemos aprendido a usar los comandos básicos de Git para gestionar los cambios de un proyecto, incluyendo cómo agregar archivos al área de preparación, hacer commits y finalmente subir esos cambios al repositorio remoto.
 
 ---
+**
