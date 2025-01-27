@@ -23,11 +23,16 @@ Este comando se emplea para **guardar los cambios** que han sido añadidos al á
 
 ### Creación de directorios
 1.Crea un repositorio localmente.
+
 ![Creación de directorios](Imagenes/Creacion%20de%20directorios.png)
 
-### Agregando el archivo `README.md`
-2.Agrega un archivo de ejemplo al repositorio, el README.md 
+### Agregando el archivo `README.md` 
+2. Agrega un archivo de ejemplo al repositorio, el README.md 
 ![Agregando README](Imagenes/Agregando%20REAME.png)
+
+### Creacion nuevo repositorio
+![Nuevorepositorio](Imagenes\new repositorio.png)
+
 
 ### Configuración global de Git
 Configura el correo en git local de manera correcta
