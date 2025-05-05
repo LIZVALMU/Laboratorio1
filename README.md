@@ -50,3 +50,29 @@ En este laboratorio hemos aprendido a usar los comandos básicos de Git para ges
 
 ---
 **
+
+### 2. Gestión de Elementos (Item Management)
+
+| Método | Endpoint | Descripción | Parámetros | Cuerpo (Body) | Respuestas |
+|--------|----------|-------------|------------|---------------|------------|
+| GET | /api/items/{id} | Obtener elemento por ID | id: ID del elemento | - | 200: Elemento encontrado |
+| PUT | /api/items/{id} | Actualizar elemento | id: ID del elemento | Objeto ItemEntity | 200: Elemento actualizado |
+| DELETE | /api/items/{id} | Eliminar elemento | id: ID del elemento | - | 200: Elemento eliminado |
+| POST | /api/items | Añadir nuevo elemento | - | Objeto ItemEntityRequest | 200: Elemento creado |
+| GET | /api/items/search | Buscar elementos por nombre | name: Nombre a buscar | - | 200: Elementos encontrados |
+| GET | /api/items/hall/{id} | Obtener elementos por sala | id: ID de la sala | - | 200: Elementos de la sala |
+| GET | /api/items/category/{name} | Buscar elementos por categoría | name: Nombre de categoría<br>available: Filtro disponibilidad (opcional) | - | 200: Elementos de la categoría |
+| GET | /api/items/all | Obtener todos los elementos | - | - | 200: Lista de elementos |
+
+### 3. Gestión de Reservas (Booking Management)
+
+| Método | Endpoint | Descripción | Parámetros | Cuerpo (Body) | Respuestas |
+|--------|----------|-------------|------------|---------------|------------|
+| GET | /api/bookings | Obtener todas las reservas | - | - | 200: Lista de reservas |
+| POST | /api/bookings | Crear nueva reserva | - | Objeto BookingRequestDTO | 200: Reserva creada |
+| POST | /api/bookings/{id}/return | Devolver una reserva | id: ID de la reserva | - | 200: Reserva devuelta |
+| POST | /api/bookings/{id}/cancel | Cancelar una reserva | id: ID de la reserva | - | 200: Reserva cancelada |
+| GET | /api/bookings/{id} | Obtener reserva por ID | id: ID de la reserva | - | 200: Detalles de la reserva |
+| GET | /api/bookings/{id}/loans | Obtener préstamos por ID de reserva | id: ID de la reserva | - | 200: Préstamos asociados |
+| GET | /api/bookings/user/{id} | Obtener reservas por ID de usuario | id: ID del usuario | - | 200: Reservas del usuario |
+
